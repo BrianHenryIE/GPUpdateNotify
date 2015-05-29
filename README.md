@@ -4,7 +4,7 @@ This is a small app to notify users when they need to restart their computer for
 
 I have it set up as a scheduled task running 30 minutes before users finish for the day. If updates are pending, a balloon notification appears by the system tray asking them to restart and an icon remains there until the computer is restarted. The balloon message should pop up every ten minutes too.
 
-![screenshot](https://github.com/BrianHenryIE/GPUpdateNotify/GPUpdateNotify%20Screenshot.png)
+![screenshot](https://github.com/BrianHenryIE/GPUpdateNotify/blob/master/GPUpdateNotify%20Screenshot.png)
 
 It works by running [gpupdate /force](https://support.microsoft.com/en-us/kb/298444) with the output being written to a text file whose contents is searched for the word "restart". It written using [AutoIt script](https://www.autoitscript.com/).
 
